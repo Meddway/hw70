@@ -1,7 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import ContactForm from './components/ContactForm.tsx';
-import ContactList from './components/ContactList.tsx';
-import Navbar from './components/Navbar.tsx';
+import Navbar from "./components/Navbar";
+import ContactForm from "./components/ContactForm";
+import ContactList from "./components/ContactList";
+
 
 const App = () => {
   return (
@@ -15,6 +16,6 @@ const App = () => {
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

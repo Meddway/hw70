@@ -1,5 +1,5 @@
 import {createSlice, PayloadAction, createAsyncThunk} from '@reduxjs/toolkit';
-import axiosApi from "../axiosApi.ts";
+import axiosApi from "../axiosApi";
 import {Contact, ContactsState} from "../int";
 
 const fetchContactsFromApi = async (): Promise<{ [key: string]: Contact }> => {
